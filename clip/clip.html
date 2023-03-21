@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="right-container">
+    
+    <div class="titles-container">
+      <div class="title-wrapper title1-wrapper"><div class="title1"></div></div>
+      <div class="title-wrapper title2-wrapper"><div class="title2"></div></div>
+    </div>
+
+    <div class="description-container">
+      <div class="subtitle">Fashion Fusion: A Blend of Style and Comfort</div>
+      <div class="description">A Blend of Style & Comfort. Upgrade your wardrobe with our new clothing line, combining fashion and function for the ultimate comfort and style.</div>
+    </div>
+
+    <div class="images-container">
+      <div class="image image1"></div>
+      <div class="image image2"></div>
+    </div>
+
+  </div> 
+
+  <div class="left-container">
+    <div class="center-image"></div>
+    <div class="product-container"></div>
+    <div class="product-image"></div>
+
+    <div class="products-images">
+      <div class="item-image" mc-for="key,item" mc-of="initParams.products" style="  background-image: url({{item.image}});
+      width: 176px;
+      height: 176px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;">
+      </div>
+    </div>
+
+    <div class="product-info" mc-for="key,item" mc-of="initParams.products">
+      <div class="title-description">
+        <div class="product-title">{{item.title}}</div>
+        <div class="product-description">{{item.description}}</div>
+      </div>
+     <div class="variants-price">
+        <div class="product-variants">
+          <div class="variant" mc-for="key,variant" mc-of="item.variants" style=" 
+          width: 76px;
+          height: 76px;
+          background-color: url({{variant}});">
+          </div>
+        </div>
+        <div class="price-wrapper">
+          <div class="product-price">{{item.price}}</div>
+        </div>
+     </div>
+     
+    </div>
+
+  </div>
+
+</div>
