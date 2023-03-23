@@ -18,6 +18,7 @@ font-size:var(--font-size);
   flex-direction: column;
   gap: 48px;
   top:400px;
+  width: 511px;
 }
 
 .titles-container{
@@ -64,7 +65,7 @@ font-size:var(--font-size);
   position: absolute;
   width: 0px;
   height: 0px;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 30px;
   left:514px;
 }
@@ -84,7 +85,9 @@ font-size:var(--font-size);
   height: 606px;
   left: 91px;
   top: 71px;
+  border-radius: 30px;
   border: 2px solid blue;
+  opacity: 0;
 }
 
 .products-images{
@@ -100,7 +103,8 @@ font-size:var(--font-size);
   width: 176px;
   height: 176px;
   border: 1px solid red;
-  opacity: 0;
+  border-radius: 30px;
+  filter: grayscale(100%);
 }
 
 .product-info{
@@ -111,7 +115,7 @@ font-size:var(--font-size);
   position: absolute;
   left: 902px;
   top: 94px;
-  opacity: 0;
+
 }
 
 .title-description{

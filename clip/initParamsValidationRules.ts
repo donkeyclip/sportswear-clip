@@ -1,21 +1,24 @@
 export default {
-  products:{
+  products: {
     label: "Products",
     type: "array",
-    items:{
-      type:"object",
+    items: {
+      type: "object",
       props: {
-        image: { type: "string"},
+        image: { type: "string" },
         title: { type: "string" },
         description: { type: "string" },
-        variants:{
-          type:"array",
-          items:{
-            type:"color"
-          }
+        variants: {
+          type: "array",
+          items: {
+            type: "object",
+            props: {
+              color: { type: "color" },
+            },
+          },
         },
         price: { type: "string" },
-      }
-    }
-  }
+      },
+    },
+  },
 };
