@@ -1,12 +1,12 @@
 import { CSSEffect } from "@donkeyclip/motorcortex";
-export const scale = (selector, duration, delay = 0, easing = "linear") =>
+export const scale = (scale, initialValue,selector, duration, delay = 0, easing = "linear") =>
   new CSSEffect(
     {
       animatedAttrs: {
-        scale: 1,
+        scale
       },
       initialValues: {
-        scale: 0,
+        scale: initialValue,
       },
     },
     {

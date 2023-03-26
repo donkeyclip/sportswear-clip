@@ -11,10 +11,8 @@ export default {
         variants: {
           type: "array",
           items: {
-            type: "object",
-            props: {
-              color: { type: "color" },
-            },
+            type:"string"
+
           },
         },
         price: { type: "string" },
