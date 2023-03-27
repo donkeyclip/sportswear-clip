@@ -8,11 +8,11 @@ export default [
       fontColor:"#1B1B1B",
       title:"Fashion Fusion: A Blend of Style and Comfort",
       subtitle:"A Blend of Style & Comfort. Upgrade your wardrobe with our new clothing line, combining fashion and function for the ultimate comfort and style.",
-      image1:"assets/image1.jpg",
+      image1:"https://donkeyclip.github.io/sportswear-clip/server/assets/image1.jpg",
       products: [
         {
           image:
-            "assets/product-1.jpg",
+            "https://donkeyclip.github.io/sportswear-clip/server/assets/product-1.jpg",
           title: "Forward Footwear",
           description:
             "Take a Step in the Right Direction. Walk in style with our latest collection of fashionable shoes, designed to keep you ahead of the fashion curve.",
@@ -21,7 +21,7 @@ export default [
         },
         {
           image:
-          "assets/product-2.jpg",
+          "https://donkeyclip.github.io/sportswear-clip/server/assets/product-2.jpg",
           title: "Sport Footwear",
           description:
             "This shoe is a classic with a runway inspired look. It has been designed by one of our most famous designers and brings back the shape that defined the era. ",
@@ -30,7 +30,7 @@ export default [
         },
         {
           image:
-          "assets/product-3.jpg",
+          "https://donkeyclip.github.io/sportswear-clip/server/assets/product-3.jpg",
           title: "Classic Modern Footwear",
           description: 
             "A modern classic: Our stylish shoe that has been a bestseller for years is now back in a new version with an updated material mix and a current design language.",
