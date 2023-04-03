@@ -15,10 +15,10 @@ export const productInfoCombo = (selector) =>
           },
           props: {
             selector:".product-description",
-            duration: 200,
+            duration: 300,
           },
           
-          position: 100,
+          position: 300,
         },
         {
             incidentClass: CSSEffect,
@@ -32,10 +32,10 @@ export const productInfoCombo = (selector) =>
             },
             props: {
               selector:".product-title",
-              duration: 200,
+              duration: 300,
             },
             
-            position: 100,
+            position: 300,
           },
         {
             incidentClass: CSSEffect,
@@ -52,7 +52,7 @@ export const productInfoCombo = (selector) =>
               delay:"@stagger(0,300)",
               duration: 100,
             },
-            position: 100,
+            position: 500,
         },
         {
             incidentClass: CSSEffect,
@@ -69,7 +69,7 @@ export const productInfoCombo = (selector) =>
               delay:"@stagger(0,300)",
               duration: 100,
             },
-            position: 100,
+            position: 500,
         },
         {
           incidentClass: CSSEffect,
@@ -90,7 +90,7 @@ export const productInfoCombo = (selector) =>
             duration: 100,
           },
           
-          position: 500,
+          position: 900,
         },
         {
             incidentClass: CSSEffect,
@@ -107,7 +107,7 @@ export const productInfoCombo = (selector) =>
               duration: 200,
             },
             
-            position: 2500,
+            position: 3500,
           },
           {
             incidentClass: CSSEffect,
@@ -124,7 +124,7 @@ export const productInfoCombo = (selector) =>
               duration: 100,
             },
             
-            position: 2500,
+            position: 3500,
           },
           {
             incidentClass: CSSEffect,
@@ -141,12 +141,12 @@ export const productInfoCombo = (selector) =>
               duration: 100,
             },
             
-            position: 2500,
+            position: 3500,
           },
       ],
     },
     {
       selector,//product-info
-      delay: "@expression(index *3000)",
+      delay: "@expression(index *4000)",
     }
   );

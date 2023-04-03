@@ -7,7 +7,6 @@ export default [
       secondaryColor:"#171717",
       fontColor:"#1B1B1B",
       title:"Fashion Fusion: A Blend of Style and Comfort",
-      subtitle:"A Blend of Style & Comfort. Upgrade your wardrobe with our new clothing line, combining fashion and function for the ultimate comfort and style.",
       image1:"https://donkeyclip.github.io/sportswear-clip/server/assets/image1.jpg",
       products: [
         {
@@ -18,6 +17,7 @@ export default [
             "Take a Step in the Right Direction. Walk in style with our latest collection of fashionable shoes, designed to keep you ahead of the fashion curve.",
           variants: ["127, 190, 170","204, 125, 53", "233, 229, 223"],
           price: "159€",
+          url:"https://donkeyclip.com/"
         },
         {
           image:
@@ -27,6 +27,7 @@ export default [
             "This shoe is a classic with a runway inspired look. It has been designed by one of our most famous designers and brings back the shape that defined the era. ",
           variants: ["235, 100, 52","52, 235, 174", "52, 131, 235"],
           price: "95€",
+          url:"https://donkeyclip.com/"
         },
         {
           image:
@@ -36,6 +37,7 @@ export default [
             "A modern classic: Our stylish shoe that has been a bestseller for years is now back in a new version with an updated material mix and a current design language.",
             variants: ["21,54,69","87,127,146", "228,109,7"],
           price: "86€",
+          url:"https://donkeyclip.com/"
         },
       ],
     },

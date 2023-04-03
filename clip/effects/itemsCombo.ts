@@ -14,7 +14,7 @@ export const itemsCombo = (selector) =>
             },
           },
           props: {
-            duration: 200,
+            duration: 300,
           },
           position: 0,
         },
@@ -29,14 +29,14 @@ export const itemsCombo = (selector) =>
             },
           },
           props: {
-            duration: 200,
+            duration: 300,
           },
-          position: 3000,
+          position: 4000,
         },
       ],
     },
     {
       selector,
-      delay: "@expression(index *3000)",
+      delay: "@expression(index *4000)",
     }
   );

@@ -16,6 +16,7 @@ export default {
           },
         },
         price: { type: "string" },
+        url: { type: "string" },
       },
     },
   },

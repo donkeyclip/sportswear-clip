@@ -32,53 +32,57 @@ const clip = new HTMLClip({
 });
 
 clip.addIncident(
-  widthHeight("236px", "148px", ".title-wrapper", 200, "@stagger(0,200)",[1,0,0.17,0.92]),
+  widthHeight("236px", "148px", ".title-wrapper", 300, "@stagger(0,200)",[0.77,0,0.18,1]),
   0
 );
 clip.addIncident(
-  opacity(1, ".title", 10, "@stagger(0,200)",[1,0,0.17,0.92]),
-  200
+  opacity(1, ".title", 10, "@stagger(0,200)",[0.77,0,0.18,1]),
+  400
 );
 clip.addIncident(
-  widthHeight("511px", "286px", ".description-container", 200,0,[1,0,0.17,0.92]),
-  600
+  widthHeight("511px", "286px", ".description-container", 300,0,[0.77,0,0.18,1]),
+  1000
 );
 clip.addIncident(
-  opacity(1, ".description-content", 10,0,[1,0,0.17,0.92]),
-  800
+  opacity(1, ".description-title", 10,0,[0.77,0,0.18,1]),
+  1350
 );
 clip.addIncident(
-  widthHeight("218px", "218px", ".image", 200, "@stagger(0,200)",[1,0,0.17,0.92]),
-  900
+  widthHeight("218px", "218px", ".image", 300, "@stagger(0,350)",[0.77,0,0.18,1]),
+  1700
 );
 
-clip.addIncident(top("280px", ".right-container", 100,0,[1,0,0.17,0.92]), 500);
-clip.addIncident(top("167px", ".right-container", 100,0,[1,0,0.17,0.92]), 800);
+clip.addIncident(top("280px", ".right-container", 100,0,[0.77,0,0.18,1]), 900);
+clip.addIncident(top("167px", ".right-container", 100,0,[0.77,0,0.18,1]), 1410);
 
-clip.addIncident(left("1017px", ".right-container", 300,0,[1,0,0.17,0.92]), 1400);
-clip.addIncident(widthHeight("429px", "749px", ".left-container", 400,0,[1,0,0.17,0.92]), 1700);
+clip.addIncident(left("1017px", ".right-container", 200,0,[0.77,0,0.18,1]), 2400);
+clip.addIncident(widthHeight("429px", "749px", ".left-container", 400,0,[0.77,0,0.18,1]), 2800);
 
-clip.addIncident(width("1434px", ".left-container", 300,0,[1,0,0.17,0.92]), 2700);
-clip.addIncident(left("243px", ".left-container", 300,0,[1,0,0.17,0.92]), 2700);
+clip.addIncident(width("1434px", ".left-container", 300,0,[0.77,0,0.18,1]), 4200);
+clip.addIncident(left("243px", ".left-container", 300,0,[0.77,0,0.18,1]), 4200);
 
-clip.addIncident(opacity(0, ".center-image,.right-container", 200,0,[1,0,0.17,0.92]), 3400);
+clip.addIncident(opacity(0, ".center-image,.right-container", 200,0,[0.77,0,0.18,1]), 4900);
 
-clip.addIncident(itemsCombo(".item-image"), 4000);
-clip.addIncident(productInfoCombo(".product-info"), 4000);
+clip.addIncident(itemsCombo(".item-image"), 5500);
+clip.addIncident(productInfoCombo(".product-info"), 5500);
 clip.addIncident(
-  productImageCombo(".product-image"),
-  4000
-);
-
-clip.addIncident(
-  opacity(1, ".item-image", 200,0,[1,0,0.17,0.92]),3600
+  productImageCombo(".left-container .product-image"),
+  5500
 );
 
 clip.addIncident(
-  scale(0, 1,".left-container", 200,"@expression(initParams.products.length*3000)",[1,0,0.17,0.92]),3800
+  opacity(1, ".item-image", 200,0,[0.77,0,0.18,1]),5100
 );
 
+
+clip.addIncident(
+  opacity(0,".products-images", 200,"@expression(initParams.products.length*4000)",[0.77,0,0.18,1]),5500
+);
+
+
+clip.addIncident(
+  opacity(1,".outro .product-image", 300,"@expression(initParams.products.length*4000)",[0.77,0,0.18,1]),5800
+);
 
 export { clip };
-
 

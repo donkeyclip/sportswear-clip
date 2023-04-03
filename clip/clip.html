@@ -7,10 +7,7 @@
     </div>
 
     <div class="description-container">
-      <div class="description-content">
         <div class="description-title">{{initParams.title}}</div>
-        <div class="description-subtitle">{{initParams.subtitle}}</div>
-      </div>
     </div>
 
     <div class="images-container">
@@ -63,5 +60,18 @@
     </div>
 
   </div>
+
+  <div class="outro">
+    <div class="product-image" mc-for="key,item" mc-of="initParams.products" style="background-image: url({{item.image}});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;">
+     <div class="button-wrapper">
+      <a class="link-button tr-center" href={{item.url}} target="_blank">
+        View info
+      </a>
+    </div></div>
+  </div>
+
 
 </div>

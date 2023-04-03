@@ -14,7 +14,7 @@ export const productImageCombo = (selector) =>
             },
           },
           props: {
-            duration: 200,
+            duration: 300,
           },
           
           position: 0,
@@ -33,13 +33,13 @@ export const productImageCombo = (selector) =>
               duration: 90,
             },
             
-            position: 3010,
+            position: 4010,
           },
        
       ],
     },
     {
       selector,
-      delay: "@expression(index *3000)",
+      delay: "@expression(index *4000)",
     }
   );
