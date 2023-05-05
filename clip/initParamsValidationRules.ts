@@ -1,4 +1,10 @@
 export default {
+  backgroundColor:{ type: "color" },
+  primaryColor:{ type: "color" },
+  secondaryColor:{ type: "color" },
+  fontColor:{ type: "color" },
+  title:{ type: "string" },
+  image1:{ type: "string" },
   products: {
     label: "Products",
     type: "array",
